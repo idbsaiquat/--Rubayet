@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our project</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/stylecss">   <style type="text/css">
+		.carousel .item img{
+			width: 100%;
+			height: 400px;
+		}
+		.sloide_sectioin .carousel{
+		}
+		.main_menu.navbar{
+			margin-bottom: 0px;
+		}
+		.
+	</style>  
+</head>
+	
+<body>
+	<div class="container">
+
+	<!-- navigation bar started here -->
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="main_menu navbar navbar-inverse">
+					<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+
+
+						<a href="#" class="navbar-brand">Mr.Khan</a>
+					</div>
+
+
+					<div id="navbar-collapse" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li  class="active"><a href="index2.html" >Health</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li class="dropdown"><a href="#" data-toggle="dropdown">Photo gallery <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="">One</a></li>
+								<li><a href="">Two</a></li>
+								<li><a href="">Three</a></li>
+							</ul>
+						</li>
+					</ul>
+
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="home.html"><span class="glyphicon glyphicon-user"></span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#login_modal"><span class="glyphicon glyphicon-log-in"></span></a></li>
+						<li><span></span></li>
+					</ul>
+
+					
+
+					<div class="navbar-right">
+						<form class="navbar-form ">
+							<div class="form-group">
+								<div class="input-group">
+									<input type="text" name="search" placeholder="Search here..." class="form-control">
+									<span class="input-group-addon "> <span class="glyphicon glyphicon-search"></span></span>
+								</div>
+							</div>
+						</form>
+					</div>
+					</div>
+
+				</div>
+			
+			</div>
+		</div>
+
+		<!-- navigation bar end here -->
+
+
+
+		<!-- slider section started here-->
+
+		<div class="sloide_sectioin">
+			
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="carousel slide" data-ride="carousel"  id="my_carousel">
+
+							<ol class="carousel-indicators">
+								<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#my_carousel" data-slide-to="1"></li>
+								<li data-target="#my_carousel" data-slide-to="2"></li>
+								<li data-target="#my_carousel" data-slide-to="3"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="img/img1.jpg" alt="image">
+									<div class="carousel-caption">
+										<h3>This is carousel heading One</h3>
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/img2.jpg" alt="image">
+									<div class="carousel-caption">
+										<h3>This is carousel heading One</h3>
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/img3.jpg" alt="image">
+									<div class="carousel-caption">
+										<h3>This is carousel heading two</h3>
+									</div>
+								</div>
+								<div class="item">
+									<img src="img/img4.jpg" alt="image">
+									<div class="carousel-caption">
+										<h3>This is carousel heading three</h3>
+									</div>
+								</div>
+							</div>
+							<a href="#my_carousel" class="carousel-control left" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+							<a href="#my_carousel" class="carousel-control right" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span></a>
+
+						</div>
+					</div>
+				</div>
+		</div>
+
+
+		<!-- slider section ended here -->
+
+
+
+		<!-- panel section started here-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-1">
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<h2>This is panel heading</h2>
+						</div>
+						<div class="panel-body">
+							
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut .
+							quis nisi ut aliquip ex ea commodo
+							consequat. </p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut. </p>
+						</div>
+						<div class="panel-footer">
+							<h4>This is panel footer</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 welcome_image col-lg-offset-1 ">
+					<img src="img/img5.jpg" alt="Image" class="img-responsive">
+				</div>
+			</div>
+		</div>
+
+		<!-- panel section started here-->
+
+		<div class="col-lg-4">
+					<div class="panel-group" id="abc">
+						<div class="panel panel-success ">
+							<div class="panel-heading">
+								<a href="#one" class="panel-title" data-toggle="collapse" data-parent="#abc">This is panel One</a>
+							</div>
+							<div class="panel-body collapse" id="one">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								.</p>
+							</div>
+							<div class="panel-footer">
+								<h4>this is panel footer</h4>
+							</div>
+						</div>
+						<div class="panel panel-danger">
+							<div class="panel-heading">
+								<a href="#two" class="panel-title" data-toggle="collapse" data-parent="#abc">This is panel Two</a>
+							</div>
+							<div class="panel-body collapse" id="two">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								.</p>
+							</div>
+							<div class="panel-footer">
+								<h4>this is panel footer</h4>
+							</div>
+						</div>
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<a href="#three" class="panel-title" data-toggle="collapse" data-parent="#abc">This is panel Three</a>
+							</div>
+							<div class="panel-body collapse" id="three">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								.</p>
+							</div>
+							<div class="panel-footer">
+								<h4>this is panel footer</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+		<!-- modal section started here -->
+
+		<div class="modal fade"  id="login_modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						<h3>Log in here</h3>
+
+					</div>
+					<div class="modal-body">
+						<form action="" method="">
+							<div class="input-group well">
+								<span class="input-group-addon"><span class="
+								glyphicon glyphicon-user"></span></span>
+								<input type="text" name="" placeholder="User name/Email Address" class="form-control">
+							</div>
+							<div class="input-group well">
+								<span class="input-group-addon"><span class="
+								glyphicon glyphicon-lock"></span></span>
+								<input type="password" name="" placeholder="Password" class="form-control">
+							</div>
+							<div class="input-group well">
+								<button class="btn btn-success btn-blocked" type="submit">Login</button>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button class="close" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- modal section end here -->
+
+
+	</div>
+
+
+	
+
+
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
